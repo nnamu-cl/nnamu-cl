@@ -17,13 +17,10 @@ jobs:
           template: classic
           base: ""
           config_timezone: Africa/Kampala
+          config_display: large
+          config_order: languages, isocalendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 30
-          plugin_habits_charts: yes
-          plugin_habits_facts: no
+          plugin_isocalendar_duration: half-year
           plugin_languages: yes
           plugin_languages_limit: 5
           plugin_languages_ignored: html, css, cmake, batchfile, makefile
