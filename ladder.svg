@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<style>text{fill:#e6edf3}.dim{fill:#7d8590}.val{font-size:12px;font-weight:700}.lab{font-size:11px}.t{font-size:15px;font-weight:700}.s{font-size:11px}</style>
+<rect width="880" height="420" rx="14" fill="#0b0f14"/>
+<text class="t" x="64" y="30">Hydrogen orbital sampler, nine CUDA kernels</text>
+<text class="s dim" x="64" y="50">Gsamples/s on an RTX 2070 Super Max-Q, SM locked at 1500 MHz, 8M samples of (1,0,0), median of 20 runs</text>
+<line x1="64" x2="852" y1="275.0" y2="275.0" stroke="#1b232e" stroke-width="1"/>
+<text class="s dim" x="56" y="279.0" text-anchor="end">5</text>
+<line x1="64" x2="852" y1="208.0" y2="208.0" stroke="#1b232e" stroke-width="1"/>
+<text class="s dim" x="56" y="212.0" text-anchor="end">10</text>
+<line x1="64" x2="852" y1="141.0" y2="141.0" stroke="#1b232e" stroke-width="1"/>
+<text class="s dim" x="56" y="145.0" text-anchor="end">15</text>
+<line x1="64" x2="852" y1="74.0" y2="74.0" stroke="#1b232e" stroke-width="1"/>
+<text class="s dim" x="56" y="78.0" text-anchor="end">20</text>
+<rect x="79.0" y="342.0" width="48.9" height="0" rx="3" fill="#2f81f7">
+<animate attributeName="y" from="342.0" to="341.8" begin="0.25s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="0.2" begin="0.25s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="103.4" y="335.8" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.70s" dur="0.3s" fill="freeze"/>15 M</text>
+<text class="lab" x="103.4" y="358" text-anchor="middle">CPU</text>
+<text class="lab" x="103.4" y="371" text-anchor="middle">16 thr</text>
+<rect x="157.8" y="342.0" width="48.9" height="0" rx="3" fill="#2f81f7">
+<animate attributeName="y" from="342.0" to="334.5" begin="0.67s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="7.5" begin="0.67s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="182.2" y="328.5" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.12s" dur="0.3s" fill="freeze"/>0.56</text>
+<text class="lab" x="182.2" y="358" text-anchor="middle">K1</text>
+<rect x="236.6" y="342.0" width="48.9" height="0" rx="3" fill="#2f81f7">
+<animate attributeName="y" from="342.0" to="318.2" begin="1.09s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="23.8" begin="1.09s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="261.0" y="312.2" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.54s" dur="0.3s" fill="freeze"/>1.78</text>
+<text class="lab" x="261.0" y="358" text-anchor="middle">K2</text>
+<rect x="315.4" y="342.0" width="48.9" height="0" rx="3" fill="#2f81f7">
+<animate attributeName="y" from="342.0" to="323.7" begin="1.51s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="18.3" begin="1.51s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="339.8" y="317.7" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.96s" dur="0.3s" fill="freeze"/>1.37</text>
+<text class="lab" x="339.8" y="358" text-anchor="middle">K3</text>
+<rect x="394.2" y="342.0" width="48.9" height="0" rx="3" fill="#2f81f7">
+<animate attributeName="y" from="342.0" to="305.5" begin="1.93s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="36.5" begin="1.93s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="418.6" y="299.5" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.38s" dur="0.3s" fill="freeze"/>2.72</text>
+<text class="lab" x="418.6" y="358" text-anchor="middle">K4</text>
+<rect x="473.0" y="342.0" width="48.9" height="0" rx="3" fill="#2f81f7">
+<animate attributeName="y" from="342.0" to="318.4" begin="2.35s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="23.6" begin="2.35s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="497.4" y="312.4" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.80s" dur="0.3s" fill="freeze"/>1.76</text>
+<text class="lab" x="497.4" y="358" text-anchor="middle">K5</text>
+<rect x="551.8" y="342.0" width="48.9" height="0" rx="3" fill="#2f81f7">
+<animate attributeName="y" from="342.0" to="280.4" begin="2.77s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="61.6" begin="2.77s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="576.2" y="274.4" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.22s" dur="0.3s" fill="freeze"/>4.60</text>
+<text class="lab" x="576.2" y="358" text-anchor="middle">K7</text>
+<rect x="630.6" y="342.0" width="48.9" height="0" rx="3" fill="#2f81f7">
+<animate attributeName="y" from="342.0" to="280.5" begin="3.19s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="61.5" begin="3.19s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="655.0" y="274.5" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.64s" dur="0.3s" fill="freeze"/>4.59</text>
+<text class="lab" x="655.0" y="358" text-anchor="middle">K8</text>
+<rect x="709.4" y="342.0" width="48.9" height="0" rx="3" fill="#2f81f7">
+<animate attributeName="y" from="342.0" to="202.7" begin="3.61s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="139.3" begin="3.61s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="733.8" y="196.7" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.06s" dur="0.3s" fill="freeze"/>10.4</text>
+<text class="lab" x="733.8" y="358" text-anchor="middle">K9</text>
+<rect x="788.2" y="342.0" width="48.9" height="0" rx="3" fill="#39d2ff">
+<animate attributeName="y" from="342.0" to="146.4" begin="4.03s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+<animate attributeName="height" from="0" to="195.6" begin="4.03s" dur="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</rect>
+<text class="val" x="812.6" y="140.4" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.48s" dur="0.3s" fill="freeze"/>14.6</text>
+<text class="lab" x="812.6" y="358" text-anchor="middle">K9</text>
+<text class="lab" x="812.6" y="371" text-anchor="middle">+shared</text>
+<line x1="64" x2="64" y1="86.3" y2="86.3" stroke="#f85149" stroke-width="1.5" stroke-dasharray="6 5"><animate attributeName="x2" from="64" to="852" begin="5.20s" dur="0.8s" fill="freeze"/></line>
+<text class="s" x="852" y="80.3" text-anchor="end" fill="#f85149" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.90s" dur="0.3s" fill="freeze"/>DRAM write roof 19.1 Gsamples/s</text>
+<text class="s dim" x="64" y="406">26x over the first CUDA kernel, 76.5% of the measured DRAM write roof.  github.com/nnamu-cl/cuda-orbital-sampler</text>
+</svg>
