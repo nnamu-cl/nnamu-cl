@@ -4,6 +4,12 @@
 
 I write kernels for the problems the matmul tutorials skip: sampling, lookups and random state, where the roof is DRAM bandwidth and latency rather than FLOPs. Every kernel gets a predicted number before it is written and an Nsight retro after.
 
+<p align="center">
+  <a href="https://gitcity.natrajx.in/nnamu-cl">
+    <img src="https://gitcity.natrajx.in/api/svg?u=nnamu-cl&theme=noir" alt="contribution skyline" width="100%">
+  </a>
+</p>
+
 ### Highlights
 
 - **[cuda-orbital-sampler](https://github.com/nnamu-cl/cuda-orbital-sampler)** Monte Carlo hydrogen orbital sampler. Nine CUDA kernels from 0.56 to 14.6 Gsamples/s, 77% of the measured DRAM write roof, with verify gates and ncu reports for each step. Article in progress.
